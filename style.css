@@ -1,0 +1,416 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+.main {
+    height: 90vh;
+    background-image: url("background.jpg");
+    background-repeat: no-repeat;
+    background-position: center center;
+    position: relative;
+    background-size: max(1200px, 100vw);
+
+
+}
+
+.main .box {
+    height: 90vh;
+    width: 100%;
+    opacity: 0.69;
+    position: absolute;
+    top: 0;
+    background-color: rgba(0, 0, 0, 0.69);
+    border-bottom-right-radius: 15px;
+}
+
+nav span img {
+    height: 25px;
+
+
+}
+
+nav {
+    max-width: 80vw;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: auto;
+    height: 100px;
+
+}
+
+.btn {
+    /* border: 2px solid black; */
+    padding: 6px 36px 6px 34px;
+    border-radius: 6px;
+}
+
+nav span img {
+    fill: red;
+    width: 148px;
+    height: 40px;
+    position: relative;
+    z-index: 10;
+}
+
+nav button {
+    position: relative;
+    z-index: 10;
+
+}
+
+.eng {
+    background-color: black;
+    color: white;
+    font-weight: bolder;
+    border: 2px solid white;
+    /* border-radius: 5px; */
+    height: 32px;
+    width: 120.4px;
+
+}
+
+.sign-in {
+    background-color: red;
+    color: white;
+    font-weight: bolder;
+    /* border-radius: 5px; */
+    /* width: 75px; */
+    height: 32px;
+    border: 2px solid white;
+}
+
+main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.hero {
+    color: white;
+    width: 588px;
+    height: 214px;
+    font-size: xx-large;
+    position: relative;
+    z-index: 10;
+
+}
+
+.para p {
+    font-size: 20px;
+    font-family: sans-serif;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    padding: 15px;
+    position: relative;
+}
+
+@media screen and (min-width:1280px) {
+    .media{
+        min-height: min(90vh, 45rem);
+        
+    }
+    
+}
+
+.para-sec h3 {
+    font-size: 16px;
+    font-family: sans-serif;
+    font-weight: lighter;
+    text-align: center;
+    justify-content: center;
+    padding-top: 15px;
+
+}
+
+.input input {
+    font-family: sans-serif;
+    width: 372.35px;
+    height: 56px;
+    padding: 13px 16px 8px;
+    margin-top: 15px;
+    border-radius: 8px;
+    align-items: start;
+    justify-content: center;
+    font-weight: bolder;
+    position: relative;
+    z-index: 10;
+    font-size: medium;
+    opacity: 0.69;
+    background-color: black;
+    color: white;
+
+}
+
+.button button {
+    padding: 13px 16px 8px;
+    background-color: red;
+    color: white;
+    height: 56px;
+    width: 207.65px;
+    border-radius: 8px;
+    position: relative;
+    font-weight: bolder;
+    display: inline-flex;
+    justify-self: flex-start;
+    align-items: center;
+    font-size: 1rem;
+
+}
+
+.button button span svg {
+    display: flex;
+    justify-content: center;
+    /* align-items: flex-end; */
+    margin-left: 35px;
+
+
+
+
+}
+
+.box1 {
+    background-color: black;
+    height: 20vh;
+    width: 99vw;
+
+}
+
+.box1::after {
+
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 100px;
+    border-top: 3px solid #ff0055;
+    border-radius: 50% / 100px;
+}
+
+.box1::after {
+    border-radius: 50% 50% 0 0 / 30px;
+    transform: translateY(50%);
+}
+
+.box1 h2 {
+    color: white;
+    position: absolute;
+    bottom: -70px;
+    padding-left: 86px;
+}
+
+.trending{
+    display: grid;
+    grid-template-columns:repeat(4,1fr) ;
+    gap: 10px;
+    /* justify-content: center;
+    align-items: center; */
+    place-items: center;
+    background-color: black;
+   
+}
+
+.card img{
+    border-radius: 12px;
+    margin-top: 17px;
+
+}
+
+@media screen and (max-width:1280px) {
+    .trending{
+        grid-template-columns: 1fr;
+    }
+
+    
+}
+
+
+.second-grid{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    gap: 10px;
+    place-items: center;
+    background-color: black;
+    /* opacity: 0.5; */
+
+
+
+}
+
+@media screen and (max-width:1280px) {
+    .second-grid{
+        grid-template-columns: 1fr;
+    }
+
+    
+}
+
+.box3{
+    background-color: black;
+    color: white;
+   
+}
+
+.box3 h2{
+    margin-left: 46px;
+}
+   
+
+.box6{
+    border-radius: 12px;
+    margin-top: 17px;
+   height: 293px;
+   width: 274px;
+   border: 2px solid black;
+   border-radius: 8px;
+   margin: -16px 0px 0px;
+   padding: 24px 16px 128px;
+   margin-top: 15px;
+   background-color: rgb(170, 8, 245);
+   color: white;
+  
+
+
+}
+.second-grid .box6  span img{
+    height: 100px;
+    width: 75px;
+    margin-top: 89px;
+    margin-left: 158px;
+    /* position: absolute;
+   bottom: 20px;
+   right: 20px;
+   width: 100%; */
+}
+
+.about-netflix{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: s;
+    
+}
+
+.about-netflix div button{
+    width: 1223px;
+    height: 84px;
+    padding: 24px;
+    margin: 10px;
+    /* margin-left: 40px; */
+    text-align: left;
+   font-size: larger;
+   border-radius: 8px;
+
+}
+.about-netflix div button{
+    background-color: #000000;
+    color: white;
+    font-size: larger;
+    border: 2px solid white;
+}
+.margin h2{
+    margin-left: 46px;
+}
+
+.margin{
+   
+   
+    background-color: black;
+    color: white;
+   
+}
+
+.about-netflix{
+    background-color: black;
+    
+    
+}
+
+.above{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    background-color: #000000;
+    padding: 40px;
+    
+}
+.b1{
+    background-color: #000000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+}
+
+.b1 input{
+    height: 56px;
+    width: 567px;
+    background-color: #000000;
+    color: white;
+    border-radius: 5px;
+    font-size: larger;
+    border-radius: 2px solid black;
+    border: 2px solid white;
+    font-size: larger;
+  
+
+
+}
+
+.b1 button{
+    height: 56px;
+    width: 207px;
+    background-color: #000000;
+    color: white;
+    border: 2px solid white;
+    margin-left: 10px;
+    border-radius: 8px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    font-size: larger;
+
+}
+
+.footer{
+   display: flex;
+   align-items: center;
+   justify-content: space-evenly;
+   height: 132px;
+   background-color: #000000;
+   color: white;
+   font-size: medium;
+
+}
+
+.contact{
+    background-color: #000000;
+    color: white;
+    padding: 20px;
+    
+}
+.contact p{
+    margin-left: 33px;
+}
+
+.footer{
+    height: 30vh;
+    width: 98pw;
+}
+
+.foot span{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    padding: 10px;
+}
+
+
+
